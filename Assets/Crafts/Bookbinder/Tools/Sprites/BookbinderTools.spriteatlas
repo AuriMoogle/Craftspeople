@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BookbinderTools
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 21300000, guid: 9e6d65d48f569404186dd4b0460dea3d, type: 3}
+    - {fileID: 21300000, guid: 817c19eb483e8dc4e9b78f5a325ac7ad, type: 3}
+    - {fileID: 21300000, guid: 4e70662929ba6b648a2f77ec37cd4c41, type: 3}
+    - {fileID: 21300000, guid: 1e7c30623e6f7e04c8830a721535d6be, type: 3}
+    - {fileID: 21300000, guid: fcdcde49392303c40a19a365d198de22, type: 3}
+    - {fileID: 21300000, guid: 0ceba3c40a8b5934088c3ad57f6b12fe, type: 3}
+    - {fileID: 21300000, guid: 9d8b0668f6138fd47ad1d67a661ac6d8, type: 3}
+    - {fileID: 21300000, guid: 7cd839979c950ba4685f6dabf717289d, type: 3}
+    - {fileID: 21300000, guid: 6c40c1c44f8bded4fb468025cf219a59, type: 3}
+    - {fileID: 21300000, guid: 5bf237c8acf3727429ce56e99cc2e791, type: 3}
+    - {fileID: 21300000, guid: 62ad50e372dc4ee4bb726c0fea274d98, type: 3}
+    - {fileID: 21300000, guid: 8cd974f544f1c8a459b973a3465bc769, type: 3}
+    - {fileID: 21300000, guid: ede87db771c1b3842a5c4d644fcbb86c, type: 3}
+    - {fileID: 21300000, guid: d6d62240c5a6d8d43bead06e34b7a6f9, type: 3}
+    - {fileID: 21300000, guid: 35a6f4fdd7960d94e89b5c81d7dcb9ef, type: 3}
+    - {fileID: 21300000, guid: 4672b8c503b8ceb4bbff092299a7791a, type: 3}
+    - {fileID: 21300000, guid: f9fc1826c05e60e48b5f15cdb02060bb, type: 3}
+    - {fileID: 21300000, guid: 6b2918f5f56eee84390abecfc1895e5e, type: 3}
+    totalSpriteSurfaceArea: 2648799
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d6d62240c5a6d8d43bead06e34b7a6f9, type: 3}
+  - {fileID: 21300000, guid: 1e7c30623e6f7e04c8830a721535d6be, type: 3}
+  - {fileID: 21300000, guid: 62ad50e372dc4ee4bb726c0fea274d98, type: 3}
+  - {fileID: 21300000, guid: 6c40c1c44f8bded4fb468025cf219a59, type: 3}
+  - {fileID: 21300000, guid: 0ceba3c40a8b5934088c3ad57f6b12fe, type: 3}
+  - {fileID: 21300000, guid: 9e6d65d48f569404186dd4b0460dea3d, type: 3}
+  - {fileID: 21300000, guid: 4672b8c503b8ceb4bbff092299a7791a, type: 3}
+  - {fileID: 21300000, guid: 8cd974f544f1c8a459b973a3465bc769, type: 3}
+  - {fileID: 21300000, guid: 6b2918f5f56eee84390abecfc1895e5e, type: 3}
+  - {fileID: 21300000, guid: f9fc1826c05e60e48b5f15cdb02060bb, type: 3}
+  - {fileID: 21300000, guid: 7cd839979c950ba4685f6dabf717289d, type: 3}
+  - {fileID: 21300000, guid: ede87db771c1b3842a5c4d644fcbb86c, type: 3}
+  - {fileID: 21300000, guid: 9d8b0668f6138fd47ad1d67a661ac6d8, type: 3}
+  - {fileID: 21300000, guid: 5bf237c8acf3727429ce56e99cc2e791, type: 3}
+  - {fileID: 21300000, guid: 4e70662929ba6b648a2f77ec37cd4c41, type: 3}
+  - {fileID: 21300000, guid: fcdcde49392303c40a19a365d198de22, type: 3}
+  - {fileID: 21300000, guid: 817c19eb483e8dc4e9b78f5a325ac7ad, type: 3}
+  - {fileID: 21300000, guid: 35a6f4fdd7960d94e89b5c81d7dcb9ef, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Bookbinder-Tool-Pressbengel
+  - Bookbinder-Tool-GlaettkolbenA
+  - Bookbinder-Tool-Heftlade
+  - Bookbinder-Tool-Goldmesser
+  - Bookbinder-Tool-GlaettkolbenC
+  - Bookbinder-Tool-Aufschabebrett
+  - Bookbinder-Tool-Schriftkasten
+  - Bookbinder-Tool-Klotzpresse
+  - Bookbinder-Tool-Zirkel
+  - Bookbinder-Tool-Tachireifen
+  - Bookbinder-Tool-Goldkissen
+  - Bookbinder-Tool-Pinsel
+  - Bookbinder-Tool-Glaettzahn
+  - Bookbinder-Tool-Handpresse
+  - Bookbinder-Tool-FranzBeschneidehobel
+  - Bookbinder-Tool-GlaettkolbenB
+  - Bookbinder-Tool-Beschneidepresse
+  - Bookbinder-Tool-SchlaghammerUndSteine
+  m_RenderDataMap: {}
+  m_Tag: BookbinderTools
+  m_IsVariant: 0

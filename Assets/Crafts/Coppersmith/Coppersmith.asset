@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4822ebd66b59d54d9fd50d6d5799963, type: 3}
+  m_Name: Coppersmith
+  m_EditorClassIdentifier: 
+  workshopName: Kupferschmied
+  previewImage: {fileID: 21300000, guid: 14e3b400fe2bd284592a07f86f192caf, type: 3}
+  workshopPrefab: {fileID: 8131127686003747015, guid: 4450bee42dbe47d47a8177bc4f2fe8f4,
+    type: 3}
+  greeting: {fileID: 11400000, guid: 3192fbd3f5736ab4693d3d15def05de1, type: 2}
+  task: {fileID: 11400000, guid: 35356bf531683d345b6722df60c05a4c, type: 2}

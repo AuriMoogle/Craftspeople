@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf0a37389133e84d8907b99bfd32988, type: 3}
+  m_Name: ShoppingList
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: f42f16c3895e57e4e8e09058786135c1, type: 2}
+  - {fileID: 11400000, guid: 7fc97c4cb33ab5d47ac39bca4a107591, type: 2}
+  - {fileID: 11400000, guid: 0f63f31f29867de419ec3eedb717b5cd, type: 2}
+  - {fileID: 11400000, guid: a26c6f7be54040442875e921574d550f, type: 2}
+  - {fileID: 11400000, guid: c1eaa16f6de844d42962bd0b11634432, type: 2}
+  - {fileID: 11400000, guid: 838fbd37476fd844ab8dc44e54d7ff60, type: 2}
+  - {fileID: 11400000, guid: 0a99dd3e0400d714d99b929e47cd3fe6, type: 2}
+  itemStates: 00000000000000000000000000000000000000000000000000000000
