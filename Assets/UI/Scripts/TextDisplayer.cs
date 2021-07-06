@@ -27,6 +27,21 @@ namespace CraftsPeople.UI
 
         private UnityAction onButtonClick;
 
+		private void Awake()
+		{
+            ResetButton();
+        }
+
+		public void Display(DisplayableText displayableText, UnityAction onButtonClick, int buttonDirection)
+        {
+            Display(displayableText);
+
+            this.onButtonClick = onButtonClick;
+
+            arrowImage.gameObject.SetActive(true);
+            arrowImage.gameObject.transform.localScale = 
+                new Vector3(buttonDirection, buttonDirection, buttonDirection);
+        }
 
         public void Display(DisplayableText displayableText)
         {
@@ -42,13 +57,9 @@ namespace CraftsPeople.UI
             textDisplay.text = string.Empty;
         }
 
-        public void EnableButton(UnityAction onButtonClick)
-        {
-            this.onButtonClick = onButtonClick;
-        }
-
         public void ResetButton()
         {
+            arrowImage.gameObject.SetActive(false);
             this.onButtonClick = null;
         }
 
@@ -83,10 +94,7 @@ namespace CraftsPeople.UI
             if (displayDelayed)
                 SkipTextTyping();
             else if (onButtonClick != null)
-            {
                 onButtonClick.Invoke();
-                arrowImage.gameObject.transform.localScale *= -1f;
-            }
         }
 
         private void SkipTextTyping()

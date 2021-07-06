@@ -106,16 +106,12 @@ namespace CraftsPeople
 
         private void DisplayGreeting()
         {
-            spookenTextDisplayer.ResetButton();
-            spookenTextDisplayer.Display(currentWorkshopData.greeting);
-            spookenTextDisplayer.EnableButton(DisplayTask);
+            spookenTextDisplayer.Display(currentWorkshopData.greeting, DisplayTask, 1);
         }
 
         private void DisplayTask()
         {
-            spookenTextDisplayer.ResetButton();
-            spookenTextDisplayer.Display(currentWorkshopData.task);
-            spookenTextDisplayer.EnableButton(DisplayGreeting);
+            spookenTextDisplayer.Display(currentWorkshopData.task, DisplayGreeting, -1);
         }
 
         public static void RegisterInteractableObject(InteractableObject interactableObject)

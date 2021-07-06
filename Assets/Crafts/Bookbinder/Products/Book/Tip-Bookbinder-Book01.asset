@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 735181ba85d6cbb48b012bf24f79da4a, type: 3}
   m_Name: Tip-Bookbinder-Book01
   m_EditorClassIdentifier: 
-  HasAuthor: 0
-  Author: {fileID: 0}
+  HasAuthor: 1
+  Author: {fileID: 11400000, guid: 5a3705393f567a645b7129224d724c51, type: 2}
   DisplayText: "B\xFCcher werden hier nicht hergestellt. Du musst dich an einem anderen
     Ort umsehen."

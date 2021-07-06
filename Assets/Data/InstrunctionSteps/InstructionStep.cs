@@ -63,20 +63,14 @@ namespace CraftsPeople
 
         private void DisplayFirstText()
         {
-            textDisplayer.ResetButton();
-            textDisplayer.Display(instructionText);
-
             UnityAction onClick = () => DisplaySecondText();
-            textDisplayer.EnableButton(onClick);
+            textDisplayer.Display(instructionText, onClick, 1);
         }
 
         private void DisplaySecondText()
         {
-            textDisplayer.ResetButton();
-            textDisplayer.Display(taskText);
-
             UnityAction onClick = () => DisplayFirstText();
-            textDisplayer.EnableButton(onClick);
+            textDisplayer.Display(taskText, onClick, -1);
         }
     }
 }
